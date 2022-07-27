@@ -3,6 +3,7 @@ import "./VendingMachine.css";
 import { SodasComp } from "../SodasComp/SodasComp";
 import { SodasTypeInput } from "../SodasTypeInput/SodasTypeInput";
 import { MoneyComp } from "../MoneyComp/MoneyComp";
+import { ChangeSummary } from "../ChangeSummary/ChangeSummary";
 import { VendingMachineReport } from "../VendingMachineReport/VendingMachineReport";
 import { PaymentButton } from "../PaymentButton/PaymentButton";
 
@@ -66,6 +67,7 @@ export const VendingMachine = () => {
           <div className="vending-machine-dispenser"></div>
         )}
       </div>
+      <ChangeSummary changeSumary={changeSumary} change={change} />
     </>
   );
 };
