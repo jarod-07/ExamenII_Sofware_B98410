@@ -15,7 +15,7 @@ export const changeErrorAlert = () => {
     Swal.fire({
       icon: 'warning',
       title: 'Oops...',
-      text: `¡No hay sufucientes monedas para darte el cambio!`
+      text: `Fallo al realizar la compra`
     })
   )
 }
