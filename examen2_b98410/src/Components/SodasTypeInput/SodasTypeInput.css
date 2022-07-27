@@ -1,6 +1,6 @@
 .sodas-types {
   display: grid;
-  grid-template-columns: 310px;
+  grid-template-columns: 340px;
   grid-template-rows: repeat(5, 45px);
   grid-column-gap: 0px;
   grid-row-gap: 0px;

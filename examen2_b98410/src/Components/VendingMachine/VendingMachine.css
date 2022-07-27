@@ -1,5 +1,5 @@
 .vending-machine{
-  width: 900px;
+  width: 1000px;
   height: 1000px;
   background-color: rgb(171, 23, 23);
   display: flex;
@@ -11,21 +11,22 @@
 }
 
 .vending-machine-top{
-  width: 850px;
+  width: 900px;
   height: 800px;
   display: flex;
   align-items: center;
   gap:50px
 }
+
 .vending-machine-sodas{
-  width: 700px;
+  width: 800px;
   height: 760px;
   background-color: rgb(181, 225, 231);
   border-radius: 5px;
 }
 
 .vending-machine-panel{
-  width: 500px;
+  width: 600px;
   height: 760px;
   background-color: rgb(155, 155, 155);
   display: flex;

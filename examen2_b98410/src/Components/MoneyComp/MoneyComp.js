@@ -62,7 +62,7 @@ export const MoneyComp = (props) => {
         >
           -
         </button>
-        <label>{bill}</label>
+        <label className="money-label">{bill}</label>
         <button
           className="money-btn"
           onClick={() => {
@@ -84,7 +84,7 @@ export const MoneyComp = (props) => {
         >
           -
         </button>
-        <label>{fiveHCoin}</label>
+        <label className="money-label">{fiveHCoin}</label>
         <button
           className="money-btn"
           onClick={() => {
@@ -106,7 +106,7 @@ export const MoneyComp = (props) => {
         >
           -
         </button>
-        <label>{hundredCoin}</label>
+        <label  className="money-label">{hundredCoin}</label>
         <button
           className="money-btn"
           onClick={() => {
@@ -128,7 +128,7 @@ export const MoneyComp = (props) => {
         >
           -
         </button>
-        <label>{fiftyCoin}</label>
+        <label className="money-label">{fiftyCoin}</label>
         <button
           className="money-btn"
           onClick={() => {
@@ -150,7 +150,7 @@ export const MoneyComp = (props) => {
         >
           -
         </button>
-        <label>{twentyFiveCoin}</label>
+        <label className="money-label">{twentyFiveCoin}</label>
         <button
           className="money-btn"
           onClick={() => {

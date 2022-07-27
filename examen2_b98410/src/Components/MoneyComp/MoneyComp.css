@@ -1,6 +1,6 @@
 .money-input {
   display: grid;
-  grid-template-columns: repeat(2, 155px);
+  grid-template-columns: repeat(2, 170px);
   grid-template-rows: repeat(4, 45px);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -70,4 +70,9 @@
 
 .money-btn:hover{
   background-color: rgb(213, 214, 214);
+}
+
+.money-label{
+  width: 27px;
+  background-color: aliceblue;
 }
