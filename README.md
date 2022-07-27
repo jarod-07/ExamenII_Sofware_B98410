@@ -1,6 +1,5 @@
-##### Examen II De Ingenieria De Software
+## Examen II De Ingenieria De Software
 
-## Integrantes
 - Jarod Venegas B98410 🐐
  
 
