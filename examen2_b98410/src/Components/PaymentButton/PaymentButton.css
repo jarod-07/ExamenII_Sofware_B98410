@@ -1,0 +1,22 @@
+.pay-btn{
+  width: 310px;
+  height: 8%;
+  border: solid 3px white;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: darkgreen;
+  border-radius: 6px;
+}
+
+.pay-btn:hover{
+  background-color: rgb(13, 122, 13);
+}
+
+.pay-btn-disable{
+  background-color: darkred;
+}
+
+.pay-btn-disable:hover{
+  background-color: darkred;
+}
